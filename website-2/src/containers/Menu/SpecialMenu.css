@@ -1,0 +1,22 @@
+.app__specialMenu {
+    flex-direction: column;
+    background-color: var(--color-black);
+}
+
+.app__specialMenu-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.app__specialMenu-title {
+
+}
+
+.app__specialMenu-menu_heading {
+    font-family: var(--font-base);
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+    line-height: 58.5px;
+}
