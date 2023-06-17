@@ -3,7 +3,10 @@ import './FooterOverlay.css';
 
 const FooterOverlay = () => {
   return (
-    <div>FooterOverlay</div>
+    <div className="app__footer-Overlay">
+      <div className="app__footer-Overlay-black"/>
+      <div className="app__footer-Overlay-img app__bg"/>
+    </div>
   )
 }
 

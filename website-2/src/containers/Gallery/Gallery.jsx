@@ -9,10 +9,10 @@ const Gallery = () => {
   const scroll = (direction) => {
     const {current} = scrollRef;
     if(direction === 'left') {
-      current -= 300;
+      current.scrollLeft -= 300;
     }
     else {
-      current += 300;
+      current.scrollLeft += 300;
     }
   };
   return (
@@ -24,7 +24,7 @@ const Gallery = () => {
         <button type='btn' className='custom__button'>View More</button>
       </div>
       <div className="app__gallery-images">
-        <div className="app__gallery-images_containers">
+        <div className="app__gallery-images_containers" ref={scrollRef}>
           {[images.gallery01, images.gallery02, images.gallery03, images.gallery04].map((image, index) => (
             <div className="app__gallery-images_card" key={`gallery__image-${index + 1}`}>
               <img src={image} alt="gallery_image" />
