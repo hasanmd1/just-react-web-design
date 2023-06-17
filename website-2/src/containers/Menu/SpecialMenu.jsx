@@ -13,10 +13,10 @@ const SpecialMenu = () => {
       </div>
       <div className="app__specialMenu-menu">
         <div className="app__specialMenu-menu_wine flex-center">
-          <p className="app__specialMenu-menu_heading">Wine & Beer</p>
+          <p className="app__specialMenu-menu_heading">Most Popular</p>
           <div className="app__specialMenu-menu_items">
-            {data.wines.map((wine, index) => (
-              <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tag={wine.tag} />
+            {data.Food.map((food, index) => (
+              <MenuItem key={food.title + index} title={food.title} price={food.price} tag={food.tag} />
             ))}
           </div>
         </div>
@@ -24,10 +24,10 @@ const SpecialMenu = () => {
           <img src={images.menu} alt="picture" />
         </div>
         <div className="app__specialMenu-menu_cocktail flex-center">
-          <p className="app__specialMenu-menu_heading">Cocktails</p>
+          <p className="app__specialMenu-menu_heading">Coffee</p>
           <div className="app__specialMenu-menu_items">
-            {data.cocktails.map((cocktail, index) => (
-              <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tag={cocktail.tag} />
+            {data.coffee.map((coffee, index) => (
+              <MenuItem key={coffee.title + index} title={coffee.title} price={coffee.price} tag={coffee.tag} />
             ))}
           </div>
         </div>

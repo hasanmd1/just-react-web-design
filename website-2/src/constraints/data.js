@@ -1,59 +1,59 @@
 import images from './images';
 
-const wines = [
+const Food = [
     {
-        title: 'Chapel Hill Shiraz',
+        title: 'Roast Chicken',
         price: '$56',
-        tag: 'AU | Bottle',
+        tag: 'CZ | Plate Serving',
     },
     {
-        title: 'Catena Malbee',
+        title: 'Pasta',
         price: '$59',
-        tag: 'AU | Bottle',
+        tag: 'CZ | Plate Serving',
     },
     {
-        title: 'La Vieilw Rose',
+        title: 'Burger',
         price: '$44',
-        tag: 'FR | 750 ml',
+        tag: 'AU | Piece-Plate Serving',
     },
 
     {
-        title: 'Rhino Pale Ale',
-        price: '$31',
-        tag: 'CA | 750 ml',
+        title: 'Chef Special',
+        price: '$71',
+        tag: 'CA | Plate Serving',
     },
     {
-        title: 'Irish Guinness',
+        title: 'Pizza',
         price: '$26',
-        tag: 'IE | 750 ml',
+        tag: 'IT | Piece-Plate serving',
     },
 ];
 
-const cocktails = [
+const coffee = [
     {
-        title: 'Aperol Sprtiz',
+        title: 'Cappuccino',
         price: '$20',
-        tag: 'Aperol | villa Marchesi prosecco | soda | 30 ml',
+        tag: 'Jacobs Bean | coffee | 30 ml',
     },
     {
-        title: "Dark 'N' Stormy",
+        title: "Espresso",
         price: '$16',
-        tag: 'Dark rum | Ginger beer | Slice of lime',
+        tag: 'Coffee | Single Espresso | Double Espresso',
     },
     {
-        title: 'Daiquiri',
+        title: 'Cold Coffee',
         price: '$10',
-        tag: 'Rum | Citrus juice | Sugar',
+        tag: 'Cold Coffee | Single | Double | Sugar',
     },
     {
         title: 'Old Fashioned',
         price: '$31',
-        tag: 'Bourbon | Brown sugar | Angostura Bitters',
+        tag: 'Coffee | Glass | Sugar',
     },
     {
-        title: 'Negoni',
+        title: 'Americano',
         price: '$20',
-        tag: 'Gin | Sweet Vermouth | Compari | Orange garnish',
+        tag: 'Coffee | Chef Special | Single | Double',
     },
 ];
 
@@ -81,4 +81,4 @@ const awards = [
     },
 ];
 
-export default {wines, cocktails, awards};
+export default {Food, coffee, awards};

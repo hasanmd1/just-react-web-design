@@ -56,7 +56,7 @@
         width: 650px;
     }
     .app__specialMenu-menu_img img {
-        height: 920px;
+        height: 1120px;
     }
 }
 
@@ -69,6 +69,7 @@
 
     .app__specialMenu-menu_img {
         margin: 3rem 0;
+        object-fit: cover;
     }
 }
 
