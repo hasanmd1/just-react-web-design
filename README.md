@@ -7,8 +7,8 @@ Welcome to my frontend design portfolio! This repository contains four one-page 
 ## 📌 Projects Overview
 
 ### 1️⃣ Logistics
-- **Tech Stack:** React.js, CSS3
-- **Live Demo:** [Deployment Link](#)
+- **Tech Stack:** React.js, CSS3, POSTCSS
+- **Live Demo:** [Deployment Link](https://logistics-a44q.onrender.com/)
 - **How to Run:**
   ```sh
   cd logistics
@@ -17,8 +17,8 @@ Welcome to my frontend design portfolio! This repository contains four one-page 
   ```
 
 ### 2️⃣ Restaurant
-- **Tech Stack:** React.js, CSS3
-- **Live Demo:** [Deployment Link](#)
+- **Tech Stack:** React.js, CSS3, POSTCSS
+- **Live Demo:** [Deployment Link](https://restaurant-1u4x.onrender.com/)
 - **How to Run:**
   ```sh
   cd restaurant
@@ -27,8 +27,8 @@ Welcome to my frontend design portfolio! This repository contains four one-page 
   ```
 
 ### 3️⃣ Cryptocurrency
-- **Tech Stack:** Vite, TailwindCSS
-- **Live Demo:** [Deployment Link](#)
+- **Tech Stack:** Vite (TypeScript), TailwindCSS
+- **Live Demo:** [Deployment Link](https://cryptocurrency-t35z.onrender.com/)
 - **How to Run:**
   ```sh
   cd cryptocurrency
@@ -37,8 +37,8 @@ Welcome to my frontend design portfolio! This repository contains four one-page 
   ```
 
 ### 4️⃣ Real Estate
-- **Tech Stack:** NextJS, TailwindCSS
-- **Live Demo:** [Deployment Link](#)
+- **Tech Stack:** NextJS (TypeScript), TailwindCSS
+- **Live Demo:** [Deployment Link](https://real-state-mnfn.onrender.com/)
 - **How to Run:**
   ```sh
   cd real-estate
